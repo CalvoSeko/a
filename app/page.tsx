@@ -40,22 +40,19 @@ export default function Home() {
               <p className="text-sm">
                 Donate Now: <a href="https://presidencia.gva.es/es/somsolidaritat" className="text-blue-600 hover:underline">Som Solidaritat</a>
               </p>
-              <div className="text-sm grid grid-cols-2 gap-2">
-                <p>Utiel: +34659289726</p>
-                <p>Horta Sur: +34682177249</p>
-                <p>Ribera: +34619975059</p>
-                <p>Hoya: +34690027099</p>
-                <p>Castellón: +34679161664</p>
-              </div>
             </section>
 
             <section className="space-y-2">
               <h3 className="font-semibold">3. Cáritas (Humanitarian Organization)</h3>
               <p className="text-sm">
-                <a href="https://www.caritasvalencia.org/emergencias/caritas-con-la-emergencia-en-valencia/" className="text-blue-600 hover:underline">Donate Now</a><br />
-                Bank Accounts:<br />
-                Caixa Popular: ES19 3159 0078 5716 6338 6025<br />
-                Caixabank: ES02 2100 8734 6113 0064 8236<br />
+                <a href="https://www.caritasvalencia.org/emergencias/caritas-con-la-emergencia-en-valencia/" className="text-blue-600 hover:underline">Donate Now</a>
+                <br></br>
+                Bank Accounts:
+                <br></br>
+                Caixa Popular: ES19 3159 0078 5716 6338 6025
+                <br></br>
+                Caixabank: ES02 2100 8734 6113 0064 8236
+                <br></br>
                 Bizum: 38026
               </p>
             </section>
