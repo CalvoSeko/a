@@ -7,13 +7,15 @@ export default function Home() {
   return (
     <div>
       <main>
-        <div>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
           {[1, 2, 3, 4, 5, 6, 7, 8].map((num) => (
-            <img
-              key={num}
-              src={`/${num}.jpg`}
-              alt={`Foto ${num}`}
-            />
+            <div key={num} className="aspect-square overflow-hidden rounded-lg">
+              <img
+                src={`/${num}.jpg`}
+                alt={`Foto ${num}`}
+                className="w-full h-full object-cover"
+              />
+            </div>
           ))}
         </div>
 
