@@ -1,6 +1,7 @@
-"use client";
-
-import { JSX } from "react";
+export const metadata = {
+  title: 'Dana Information',
+  description: 'How to help Valencia recover from DANA floods',
+};
 
 export default function Home(): JSX.Element {
   return (
