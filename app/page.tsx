@@ -3,7 +3,7 @@ export const metadata = {
   description: 'How to help Valencia recover from DANA floods',
 };
 
-export default function Home(): {
+export default function Home() {
   return (
     <div>
       <main>
