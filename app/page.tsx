@@ -92,7 +92,7 @@ export default function Home() {
                 <a href="https://www.gofundme.com/f/dana-ayuda-a-las-familias-de-la-horta-sud-de-valencia">Help Families in Horta Sud</a><br />
                 <a href="https://www.gofundme.com/f/ayuda-damnificados-por-el-dana-en-valencia">Help DANA Victims in Valencia</a><br />
                 <a href="https://www.gofundme.com/f/una-paella-para-valencia">A Paella For Valencia</a><br />
-                <a href="https://www.gofundme.com/f/ayudemos-a-el-refugio-de-maria-tras-la-dana">Help Maria's Refuge</a>
+                <a href="https://www.gofundme.com/f/ayudemos-a-el-refugio-de-maria-tras-la-dana">Help Maria&apos;s Refuge</a>
               </p>
             </section>
           </div>
