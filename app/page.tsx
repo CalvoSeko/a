@@ -1,4 +1,8 @@
-export default function Home() {
+"use client";
+
+import { JSX } from "react";
+
+export default function Home(): JSX.Element {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
@@ -46,13 +50,13 @@ export default function Home() {
               <h3 className="font-semibold">3. Cáritas (Humanitarian Organization)</h3>
               <p className="text-sm">
                 <a href="https://www.caritasvalencia.org/emergencias/caritas-con-la-emergencia-en-valencia/" className="text-blue-600 hover:underline">Donate Now</a>
-                <br></br>
+                <br />
                 Bank Accounts:
-                <br></br>
+                <br />
                 Caixa Popular: ES19 3159 0078 5716 6338 6025
-                <br></br>
+                <br />
                 Caixabank: ES02 2100 8734 6113 0064 8236
-                <br></br>
+                <br />
                 Bizum: 38026
               </p>
             </section>
