@@ -37,9 +37,17 @@ export default function Home() {
             <p>
               For a detailed snapshot of the impact and response efforts, visit the <a href="https://www.bbc.co.uk/news/live/cgk1m7g73ydt?page=2" className="text-blue-500 hover:text-blue-700">BBC News Live Report</a>.
             </p>
-            <p>
-              Alternatively, you can access the report timeline API at <a href="https://www.bbc.co.uk/news/live/cgk1m7g73ydt?page=2" className="text-blue-500 hover:text-blue-700">BBC News Live Report API</a>.
-            </p>
+          <div className="video-container">
+            <iframe
+              width="853"
+              height="480"
+              src="https://www.youtube.com/embed/UvtkUjxVm7c"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+
           </div>
           <div className="mb-8">
             <section className="mb-4">
