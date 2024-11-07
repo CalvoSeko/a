@@ -35,7 +35,7 @@ export default function Home() {
 
           <div className="mb-8">
             <section className="mb-4">
-              <h3 className="text-xl font-semibold mb-2">1. Generalitat Valenciana (ValencianRegional Government)</h3>
+              <h3 className="text-xl font-semibold mb-2">1. Generalitat Valenciana (Valencian Regional Government)</h3>
               <p>
                 Donate Now: <a href="https://comunica.gva.es/va/detalle?id=387402765&site=373422916" className="text-blue-500 hover:text-blue-700">Official Portal</a><br />
                 Bank Account: ES94 0081 0693 61 0002423445<br />
@@ -79,6 +79,7 @@ export default function Home() {
                 Their team is already on the ground providing essential food to those affected.
               </p>
             </section>
+            <p className="text-sm text-gray-500">These are the larger NGOs working on the issue</p>
 
             <section className="mb-4">
               <h3 className="text-xl font-semibold mb-2">6. Fundació Horta Sud</h3>
