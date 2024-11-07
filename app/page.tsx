@@ -35,7 +35,7 @@ export default function Home() {
           <div className="mb-8">
             <h3 className="text-xl font-semibold mb-2">Report Timeline</h3>
             <p>
-              For a detailed snapshot of the flood's impact and response efforts, visit the <a href="https://www.bbc.co.uk/news/live/cgk1m7g73ydt?page=2" className="text-blue-500 hover:text-blue-700">BBC News Live Report</a>.
+              For a detailed snapshot of the impact and response efforts, visit the <a href="https://www.bbc.co.uk/news/live/cgk1m7g73ydt?page=2" className="text-blue-500 hover:text-blue-700">BBC News Live Report</a>.
             </p>
             <p>
               Alternatively, you can access the report timeline API at <a href="https://www.bbc.co.uk/news/live/cgk1m7g73ydt?page=2" className="text-blue-500 hover:text-blue-700">BBC News Live Report API</a>.
