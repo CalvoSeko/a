@@ -44,7 +44,7 @@ export default function Home() {
               src="https://www.youtube.com/embed/UvtkUjxVm7c"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </div>
 
