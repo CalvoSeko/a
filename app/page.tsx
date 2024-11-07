@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <div className="grid grid-rows-[1fr] min-h-screen p-8">
       <main className="grid grid-cols-2 md:grid-cols-4 gap-4">
+
           {[1, 2, 3, 4, 5, 6, 7, 8].map((num) => (
             <div key={num} className="aspect-square overflow-hidden rounded-lg">
               <img
@@ -48,7 +49,7 @@ export default function Home() {
                 For a detailed snapshot of the impact and response efforts, visit the <a href="https://www.bbc.co.uk/news/live/cgk1m7g73ydt?page=2" className="text-blue-500 hover:text-blue-700">BBC News Live Report</a>.
               </p>
               <p className="mt-4">
-                Gemini summary: This video is about the devastating floods in Spain. The floods have caused widespread damage and loss of life. The video shows the aftermath of the floods, including flooded streets, damaged buildings, and displaced residents. The video also interviews people who have been affected by the floods, including survivors and family members of victims. The video highlights the lack of warning from the authorities and the anger of the people affected by the floods.
+                This video is about the devastating floods in Spain. The floods have caused widespread damage and loss of life. The video shows the aftermath of the floods, including flooded streets, damaged buildings, and displaced residents. The video also interviews people who have been affected by the floods, including survivors and family members of victims. The video highlights the lack of warning from the authorities and the anger of the people affected by the floods.
               </p>
             </div>
           </div>
@@ -144,10 +145,12 @@ export default function Home() {
             <p style={{ fontFamily: 'Cursive', fontStyle: 'italic' }}>
               Molta força a tots i cuideu-vos-en.
             </p>
+
             <p>
               Disclaimer: This website is not affiliated with any of the organizations listed and does not receive any compensation for sharing this information.
             </p>
           </div>
+          
       </main>
 
     </div>
