@@ -32,20 +32,26 @@ export default function Home() {
             with over 100,000 households left without electricity. The impact is immense, and the need 
             for support is urgent.
           </p>
-          <div className="mb-8">
-            <h3 className="text-xl font-semibold mb-2">Report Timeline</h3>
-            <p>
-              For a detailed snapshot of the impact and response efforts, visit the <a href="https://www.bbc.co.uk/news/live/cgk1m7g73ydt?page=2" className="text-blue-500 hover:text-blue-700">BBC News Live Report</a>.
-            </p>
-          <div className="video-container mx-auto border-4 border-white">
-            <iframe
-              width="853"
-              height="480"
-              src="https://www.youtube.com/embed/UvtkUjxVm7c"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
+          <div className="mb-8 flex flex-row justify-center">
+            <div className="video-container mx-auto border-4 border-white">
+              <iframe
+                width="853"
+                height="480"
+                src="https://www.youtube.com/embed/UvtkUjxVm7c"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <div className="ml-4">
+              <h3 className="text-xl font-semibold mb-2">Report Timeline</h3>
+              <p>
+                For a detailed snapshot of the impact and response efforts, visit the <a href="https://www.bbc.co.uk/news/live/cgk1m7g73ydt?page=2" className="text-blue-500 hover:text-blue-700">BBC News Live Report</a>.
+              </p>
+              <p className="mt-4">
+                Gemini summary: This video is about the devastating floods in Spain. The floods have caused widespread damage and loss of life. The video shows the aftermath of the floods, including flooded streets, damaged buildings, and displaced residents. The video also interviews people who have been affected by the floods, including survivors and family members of victims. The video highlights the lack of warning from the authorities and the anger of the people affected by the floods.
+              </p>
+            </div>
           </div>
 
           </div>
@@ -116,7 +122,7 @@ export default function Home() {
                 BIC/SWIFT: BCOEESMM159
               </p>
             </section>
-            <h2 className="text-2xl font-semibold mb-4">Local Organizations Helping</h2>
+            <h2 className="text-sm text-gray-500 font-semibold mb-4">Local Organizations Helping</h2>
             
             <section className="mb-4">
               <h3 className="text-xl font-semibold mb-2">Go Fund Me Initiatives</h3>
