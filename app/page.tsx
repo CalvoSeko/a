@@ -50,6 +50,7 @@ export default function Home() {
             <p className="mt-4">
               This video is about the devastating floods in Spain. The floods have caused widespread damage and loss of life. The video shows the aftermath of the floods, including flooded streets, damaged buildings, and displaced residents. The video also interviews people who have been affected by the floods, including survivors and family members of victims. The video highlights the lack of warning from the authorities and the anger of the people affected by the floods.
             </p>
+            <img src="/9.jpg" alt="Foto 9" className="w-full h-full object-cover mt-4" />
           </div>
         </div>
       </div>
@@ -62,6 +63,7 @@ export default function Home() {
             Bank Account: ES94 0081 0693 61 0002423445<br />
             <span>Matching Funds: Banco Sabadell will match every euro donated, up to €500,000.</span>
           </p>
+          <img src="/10.jpg" alt="Foto 10" className="w-full h-full object-cover mt-4" />
         </section>
         <section className="mb-4">
           <h3 className="text-xl font-semibold mb-2">Ajuntament de Picanya</h3>
@@ -79,6 +81,7 @@ export default function Home() {
           <p>
             Donate Now: <a href="https://presidencia.gva.es/es/somsolidaritat" className="text-blue-500 hover:text-blue-700">Som Solidaritat</a>
           </p>
+          <img src="/11.jpg" alt="Foto 11" className="w-full h-full object-cover mt-4" />
         </section>
 
         <section className="mb-4">
@@ -101,6 +104,7 @@ export default function Home() {
             <a href="https://cercadeti.cruzroja.es/ayudaafectadosinundacionesdana" className="text-blue-500 hover:text-blue-700">Donate Now</a><br />
             Bizum Code: 33512
           </p>
+          <img src="/12.jpg" alt="Foto 12" className="w-full h-full object-cover mt-4" />
         </section>
 
         <section className="mb-4">
