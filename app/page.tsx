@@ -6,6 +6,7 @@ export const metadata = {
 export default function Home() {
   return (
     <div className="grid grid-rows-[1fr] min-h-screen p-8">
+
       <main className="grid grid-cols-2 md:grid-cols-4 gap-4">
 
           {[1, 2, 3, 4, 5, 6, 7, 8].map((num) => (
@@ -134,23 +135,28 @@ export default function Home() {
               </p>
             </section>
           </div>
-          <section className="mb-4">
-            <h3 className="text-sm text-gray-500">Go Fund Me Campaigns</h3>
-          </section>
+        </main>
 
-          <div className="mb-8">
-            <p>
-              Every contribution, no matter the size, can make a significant impact on the lives of those affected by this disaster.
-            </p>
-            <p style={{ fontFamily: 'Cursive', fontStyle: 'italic' }}>
-              Molta força a tots i cuideu-vos-en.
-            </p>
 
-            <p>
-              Disclaimer: This website is not affiliated with any of the organizations listed and does not receive any compensation for sharing this information.
-            </p>
-          </div>
-          
+      <footer className="mb-8">
+        <section className="mb-4">
+          <h3 className="text-sm text-gray-500">Go Fund Me Campaigns</h3>
+        </section>
+
+        <div className="mb-8">
+          <p>
+            Every contribution, no matter the size, can make a significant impact on the lives of those affected by this disaster.
+          </p>
+          <p style={{ fontFamily: 'Cursive', fontStyle: 'italic' }}>
+            Molta força a tots i cuideu-vos-en.
+          </p>
+
+          <p>
+            Disclaimer: This website is not affiliated with any of the organizations listed and does not receive any compensation for sharing this information.
+          </p>
+        </div>
+      </footer>
+
       </main>
 
     </div>
