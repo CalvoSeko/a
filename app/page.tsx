@@ -35,7 +35,7 @@ export default function Home() {
 
           <div className="mb-8">
             <section className="mb-4">
-              <h3 className="text-xl font-semibold mb-2">1. Generalitat Valenciana (Valencian Regional Government)</h3>
+              <h3 className="text-xl font-semibold mb-2">Generalitat Valenciana (Valencian Regional Government)</h3>
               <p>
                 Donate Now: <a href="https://comunica.gva.es/va/detalle?id=387402765&site=373422916" className="text-blue-500 hover:text-blue-700">Official Portal</a><br />
                 Bank Account: ES94 0081 0693 61 0002423445<br />
@@ -44,14 +44,14 @@ export default function Home() {
             </section>
 
             <section className="mb-4">
-              <h3 className="text-xl font-semibold mb-2">2. Som Solidaritat (Regional Government)</h3>
+              <h3 className="text-xl font-semibold mb-2">Som Solidaritat (Regional Government)</h3>
               <p>
                 Donate Now: <a href="https://presidencia.gva.es/es/somsolidaritat" className="text-blue-500 hover:text-blue-700">Som Solidaritat</a>
               </p>
             </section>
 
             <section className="mb-4">
-              <h3 className="text-xl font-semibold mb-2">3. Cáritas (Humanitarian Organization)</h3>
+              <h3 className="text-xl font-semibold mb-2">Cáritas (Humanitarian Organization)</h3>
               <p>
                 <a href="https://www.caritasvalencia.org/emergencias/caritas-con-la-emergencia-en-valencia/" className="text-blue-500 hover:text-blue-700">Donate Now</a><br />
                 Bank Accounts:
@@ -65,7 +65,7 @@ export default function Home() {
             </section>
 
             <section className="mb-4">
-              <h3 className="text-xl font-semibold mb-2">4. Cruz Roja (Red Cross Spain)</h3>
+              <h3 className="text-xl font-semibold mb-2">Cruz Roja (Red Cross Spain)</h3>
               <p>
                 <a href="https://cercadeti.cruzroja.es/ayudaafectadosinundacionesdana" className="text-blue-500 hover:text-blue-700">Donate Now</a><br />
                 Bizum Code: 33512
@@ -73,25 +73,26 @@ export default function Home() {
             </section>
 
             <section className="mb-4">
-              <h3 className="text-xl font-semibold mb-2">5. World Central Kitchen</h3>
+              <h3 className="text-xl font-semibold mb-2">World Central Kitchen</h3>
               <p>
                 <a href="https://donate.wck.org/campaign/637262/donate#!/donation/checkout?c_src=first-alert" className="text-blue-500 hover:text-blue-700">Donate Now</a><br />
                 Their team is already on the ground providing essential food to those affected.
               </p>
             </section>
             <p className="text-sm text-gray-500">These are the larger NGOs working on the issue</p>
+            
 
             <section className="mb-4">
-              <h3 className="text-xl font-semibold mb-2">6. Fundació Horta Sud</h3>
+              <h3 className="text-xl font-semibold mb-2">Fundació Horta Sud</h3>
               <p>
                 <a href="https://fundaciohortasud.helpbysc.com/afectados-dana" className="text-blue-500 hover:text-blue-700">Donate Now</a><br />
                 Bank Account: ES43 3159 0013 9630 4769 6921<br />
                 BIC/SWIFT: BCOEESMM159
               </p>
             </section>
-
+            <h2 className="text-2xl font-semibold mb-4">Local Organizations Helping</h2>
             <section className="mb-4">
-              <h3 className="text-xl font-semibold mb-2">7. Go Fund Me Initiatives</h3>
+              <h3 className="text-xl font-semibold mb-2">Go Fund Me Initiatives</h3>
               <p>
                 <a href="https://www.gofundme.com/f/dana-ayuda-a-las-familias-de-la-horta-sud-de-valencia" className="text-blue-500 hover:text-blue-700">Help Families in Horta Sud</a><br />
                 <a href="https://www.gofundme.com/f/ayuda-damnificados-por-el-dana-en-valencia" className="text-blue-500 hover:text-blue-700">Help DANA Victims in Valencia</a><br />
