@@ -5,7 +5,6 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div>
       <main>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
           {[1, 2, 3, 4, 5, 6, 7, 8].map((num) => (
@@ -153,6 +152,5 @@ export default function Home() {
       </main>
 
       <footer></footer>
-    </div>
   );
 }
