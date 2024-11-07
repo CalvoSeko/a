@@ -5,8 +5,8 @@ export const metadata = {
 
 export default function Home() {
   return (
-      <main>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
+    <div className="grid grid-rows-[1fr] min-h-screen p-8">
+      <main className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {[1, 2, 3, 4, 5, 6, 7, 8].map((num) => (
             <div key={num} className="aspect-square overflow-hidden rounded-lg">
               <img
@@ -148,9 +148,8 @@ export default function Home() {
               Disclaimer: This website is not affiliated with any of the organizations listed and does not receive any compensation for sharing this information.
             </p>
           </div>
-        </div>
       </main>
 
-      <footer></footer>
+    </div>
   );
 }
