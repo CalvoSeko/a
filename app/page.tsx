@@ -5,7 +5,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[1fr] min-h-screen p-8 items-center justify-center">
+    <div className="flex flex-col items-center justify-center min-h-screen p-8 text-center">
       <main className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center justify-center">
         {[1, 2, 3, 4, 5, 6, 7, 8].map((num) => (
           <div key={num} className="aspect-square overflow-hidden rounded-lg">
