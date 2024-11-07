@@ -42,6 +42,16 @@ export default function Home() {
                 <span>Matching Funds: Banco Sabadell will match every euro donated, up to €500,000.</span>
               </p>
             </section>
+            <section className="mb-4">
+              <h3 className="text-xl font-semibold mb-2">Ajuntament de Picanya</h3>
+              <p>
+                INFORMATION:<br />
+                The City Council of Picanya has enabled this account for:<br />
+                FUND DONATION<br />
+                Bank details:<br />
+                <a href="https://x.com/aPicanya/status/1852682918792949818" className="text-blue-500 hover:text-blue-700">https://x.com/aPicanya/status/1852682918792949818</a>
+              </p>
+            </section>
 
             <section className="mb-4">
               <h3 className="text-xl font-semibold mb-2">Som Solidaritat (Regional Government)</h3>
