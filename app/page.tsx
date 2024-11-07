@@ -37,7 +37,7 @@ export default function Home() {
             <p>
               For a detailed snapshot of the impact and response efforts, visit the <a href="https://www.bbc.co.uk/news/live/cgk1m7g73ydt?page=2" className="text-blue-500 hover:text-blue-700">BBC News Live Report</a>.
             </p>
-          <div className="video-container mx-auto">
+          <div className="video-container mx-auto border-4 border-white">
             <iframe
               width="853"
               height="480"
