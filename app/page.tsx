@@ -104,7 +104,7 @@ export default function Home() {
             <p>
               Every contribution, no matter the size, can make a significant impact on the lives of those affected by this disaster.
             </p>
-            <p>
+            <p style={{ fontFamily: 'Cursive', fontStyle: 'italic' }}>
               Molta força a tots i cuideu-vos-en.
             </p>
             <p>
