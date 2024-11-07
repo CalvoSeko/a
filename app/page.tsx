@@ -32,7 +32,15 @@ export default function Home() {
             with over 100,000 households left without electricity. The impact is immense, and the need 
             for support is urgent.
           </p>
-
+          <div className="mb-8">
+            <h3 className="text-xl font-semibold mb-2">Report Timeline</h3>
+            <p>
+              For a detailed snapshot of the flood's impact and response efforts, visit the <a href="https://www.bbc.co.uk/news/live/cgk1m7g73ydt?page=2" className="text-blue-500 hover:text-blue-700">BBC News Live Report</a>.
+            </p>
+            <p>
+              Alternatively, you can access the report timeline API at <a href="https://www.bbc.co.uk/news/live/cgk1m7g73ydt?page=2" className="text-blue-500 hover:text-blue-700">BBC News Live Report API</a>.
+            </p>
+          </div>
           <div className="mb-8">
             <section className="mb-4">
               <h3 className="text-xl font-semibold mb-2">Generalitat Valenciana (Valencian Regional Government)</h3>
