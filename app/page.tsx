@@ -91,6 +91,7 @@ export default function Home() {
               </p>
             </section>
             <h2 className="text-2xl font-semibold mb-4">Local Organizations Helping</h2>
+            
             <section className="mb-4">
               <h3 className="text-xl font-semibold mb-2">Go Fund Me Initiatives</h3>
               <p>
@@ -101,6 +102,9 @@ export default function Home() {
               </p>
             </section>
           </div>
+          <section className="mb-4">
+            <h3 className="text-sm text-gray-500">Go Fund Me Campaigns</h3>
+          </section>
 
           <div className="mb-8">
             <p>
