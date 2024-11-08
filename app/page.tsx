@@ -62,7 +62,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-
+      <p className="text-sm text-gray-500">Donations to the regional government bodies</p>
       <div className="mb-8">
         <section className="mb-4">
           <h3 className="text-xl font-semibold mb-2">Generalitat Valenciana (Valencian Regional Government)</h3>
@@ -89,7 +89,8 @@ export default function Home() {
             Donate Now: <a href="https://presidencia.gva.es/es/somsolidaritat" className="text-blue-500 hover:text-blue-700">Som Solidaritat</a>
           </p>
         </section>
-
+        
+        <p className="text-sm text-gray-500">These are the larger NGOs working on the issue</p>
         <section className="mb-4">
           <h3 className="text-xl font-semibold mb-2">Cáritas (Humanitarian Organization)</h3>
           <p>
@@ -103,7 +104,7 @@ export default function Home() {
             Bizum: 38026
           </p>
         </section>
-        <p className="text-sm text-gray-500">Donations to the regional government bodies</p>
+
         <section className="mb-4">
           <h3 className="text-xl font-semibold mb-2">Cruz Roja (Red Cross Spain)</h3>
           <p>
@@ -119,8 +120,7 @@ export default function Home() {
             Their team is already on the ground providing essential food to those affected.
           </p>
         </section>
-        <p className="text-sm text-gray-500">These are the larger NGOs working on the issue</p>
-        
+        <h2 className="text-sm text-gray-500 font-semibold mb-4">Local Organizations</h2>
 
         <section className="mb-4">
           <h3 className="text-xl font-semibold mb-2">Fundació Horta Sud</h3>
@@ -130,7 +130,7 @@ export default function Home() {
             BIC/SWIFT: BCOEESMM159
           </p>
         </section>
-        <h2 className="text-sm text-gray-500 font-semibold mb-4">Local Organizations Helping</h2>
+
         
         <section className="mb-4">
           <h3 className="text-xl font-semibold mb-2">Go Fund Me Initiatives</h3>
