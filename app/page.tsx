@@ -11,7 +11,7 @@ export default function Home() {
         backgroundImage: `url('/9.jpg'), url('/10.jpg'), url('/11.jpg'), url('/12.jpg')`,
         backgroundSize: '50% 50%',
         backgroundPosition: 'top left, top right, bottom left, bottom right',
-        backgroundRepeat: 'repeat',
+        backgroundRepeat: 'no-repeat',
       }}
     >
       <main className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center justify-center">
