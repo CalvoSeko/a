@@ -1,4 +1,3 @@
- 
 export const metadata = {
   title: 'Dana Information',
   description: 'How to help Valencia recover from DANA floods',
@@ -6,19 +5,8 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div className="min-h-screen p-8 bg-gray-100 relative">
-      <div className="absolute inset-0 grid grid-cols-2 md:grid-cols-4 gap-0">
-        {[9, 10, 11, 12].map((num) => (
-          <Image
-            key={num}
-            src={`/${num}.jpg`}
-            alt={`Background Image ${num}`}
-            layout="fill"
-            objectFit="cover"
-            className="w-full h-full"
-          />
-        ))}
-      </div>
+    <div className="flex flex-col items-center justify-center min-h-screen p-8 text-center bg-grid">
+      <main className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center justify-center">
         {[1, 2, 3, 4, 5, 6, 7, 8].map((num) => (
           <div key={num} className="aspect-square overflow-hidden rounded-lg">
             <img
