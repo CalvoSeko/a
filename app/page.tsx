@@ -5,7 +5,15 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-8 text-center bg-grid">
+    <div 
+      className="flex flex-col items-center justify-center min-h-screen p-8 text-center"
+      style={{
+        backgroundImage: `url('/9.jpg'), url('/10.jpg'), url('/11.jpg'), url('/12.jpg')`,
+        backgroundSize: '50% 50%',
+        backgroundPosition: 'top left, top right, bottom left, bottom right',
+        backgroundRepeat: 'repeat',
+      }}
+    >
       <main className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center justify-center">
         {[1, 2, 3, 4, 5, 6, 7, 8].map((num) => (
           <div key={num} className="aspect-square overflow-hidden rounded-lg">
