@@ -104,6 +104,7 @@ export default function Home() {
             Bizum: 38026
           </p>
         </section>
+        
 
         <section className="mb-4">
           <h3 className="text-xl font-semibold mb-2">Cruz Roja (Red Cross Spain)</h3>
